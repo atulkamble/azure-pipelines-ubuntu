@@ -1,0 +1,9 @@
+trigger:
+  - main
+
+pool:
+  vmImage: "ubuntu-latest"
+
+steps:
+  shell: |
+    echo "Hello from, Azure Pipelines with ubuntu agent!"
